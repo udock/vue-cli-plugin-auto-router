@@ -5,9 +5,6 @@ export = function (api: any, options: any) {
   const fjs = require.resolve('@udock/vue-plugin-auto-router')
   const fts = fjs.replace(/\.js$/i, '.ts')
 
-  console.log('fjs', fjs)
-  console.log('fts', fts)
-
   api.chainWebpack!((webpackConfig: any) => {
     webpackConfig.module
       .rule('vue-plugin-auto-router')
