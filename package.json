@@ -1,6 +1,6 @@
 {
   "name": "@udock/vue-cli-plugin-auto-router",
-  "version": "2.0.2",
+  "version": "3.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@udock/vue-plugin-auto-router": "^2.0.0"
+    "@udock/vue-plugin-auto-router": "^3.0.0"
   },
   "devDependencies": {
     "@types/node": "^14.0.24"
