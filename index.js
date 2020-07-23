@@ -3,8 +3,6 @@ var udockBootstrapLoader = require.resolve('@udock/vue-plugin-auto-router/lib/lo
 module.exports = function (api, options) {
     var fjs = require.resolve('@udock/vue-plugin-auto-router');
     var fts = fjs.replace(/\.js$/i, '.ts');
-    console.log('fjs', fjs);
-    console.log('fts', fts);
     api.chainWebpack(function (webpackConfig) {
         webpackConfig.module
             .rule('vue-plugin-auto-router')

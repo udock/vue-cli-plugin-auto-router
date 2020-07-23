@@ -1,9 +1,11 @@
 {
   "name": "@udock/vue-cli-plugin-auto-router",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "prepublish": "tsc"
+  },
   "author": "",
   "license": "MIT",
   "dependencies": {
